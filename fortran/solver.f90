@@ -141,8 +141,8 @@ contains
   subroutine ark4
 
     implicit none
-    real, dimension(2), intent(in) :: u_in
-    real, intent(in)               :: xi, dxi_test
+    real, dimension(2) :: u_in
+    real               :: xi, dxi_test
     real                           :: eps, ftol, frac
     real                           :: u_scale, u_test
     real                           :: dxi_scale
